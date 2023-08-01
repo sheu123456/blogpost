@@ -1,0 +1,29 @@
+.form1{
+    border: 1px solid blue;
+    padding: 10px;
+    margin-left: 480px  ;
+    margin-top: 10%;
+    height: 400px;
+    width: 25%;
+    border-radius: 20px;
+    box-shadow: 19px;
+}
+
+.input{
+    padding-left: 35px;
+    margin-left: 20px;
+}
+
+.submit{
+    float: right;
+    margin-right: 70px;
+}
+
+#input1{
+    margin-top: 10px;
+    padding-top: 16px;
+}
+
+p{
+    text-align: center;
+}

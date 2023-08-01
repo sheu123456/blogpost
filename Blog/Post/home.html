@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Website</title>
+
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+    
+*{
+  background-color: ;
+}
+
+        .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+<style>
+    /* Rest of the styles from previous code */
+
+    /* Slideshow styles */
+    .slideshow-container {
+        max-width: 1000px;
+        margin: auto;
+        position: relative;
+    }
+
+    .slide {
+        display: none;
+    }
+
+    .slide img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .slide-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+    }
+
+    /* Optional: Add animation to the slideshow */
+    .fade-in {
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    /* Rest of the CSS styles */
+</style>
+
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Logo</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html">Blogs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="collections.html">Collections</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="manipulation.html">Manipulation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="visualization.html">Visualization</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="storage.html">Storage</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="data.html">Data Language</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="signup.html">Sign up</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <header>
+        <h1>Welcome to My Blog</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="slideshow-container">
+        <div class="slide fade-in">
+            <img src="https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="Image 1">
+            <div class="slide-content">
+                <h2>About Us</h2>
+                <p>dfbgguir wegnuierher erghpgjrgn veghrnger</p>
+            </div>
+        </div>
+
+
+        <div class="slide fade-in">
+            <img src="https://images.unsplash.com/photo-1690796033802-fa65ac78953f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="Image 1">
+            <div class="slide-content">
+                <h2>About Us</h2>
+                <p>dfbgguir wegnuierher erghpgjrgn veghrnger</p>
+            </div>
+        </div>
+
+        <div class="slide fade-in">
+            <img src="https://images.unsplash.com/photo-1690736543788-146c81dfb215?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="Image 1898">
+            <div class="slide-content">
+                <h2>About Us</h2>
+                <p>dfbgguir wegnuierher erghpgjrgn veghrnger</p>
+            </div>
+        </div>
+
+
+        <div class="slide fade-in">
+            <img src="https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="Image 1">
+            <div class="slide-content">
+                <h2>About Us</h2>
+                <p>dfbgguir wegnuierher erghpgjrgn veghrnger</p>
+            </div>
+        </div>
+
+        <!-- Add more slides here -->
+
+        <!-- Optional: Add navigation buttons if desired -->
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <section>
+        <!-- Rest of the blog posts -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Blog Website. All rights reserved.</p>
+    </footer>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("slide");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 5000); // Change slide every 5 seconds (adjust as needed)
+        }
+
+        // Optional: Add navigation buttons to manually change slides
+        function changeSlide(n) {
+            slideIndex += n;
+            let slides = document.getElementsByClassName("slide");
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            } else if (slideIndex < 1) {
+                slideIndex = slides.length;
+            }
+
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
